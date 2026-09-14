@@ -1,0 +1,56 @@
+{
+  "name": "quilltex",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "A keyboard-first desktop LaTeX writing environment",
+  "main": "desktop/main.cjs",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5173",
+    "build": "tsc --noEmit && vite build",
+    "desktop": "npm run build && electron .",
+    "test": "node --experimental-strip-types tests/core.test.ts && node --experimental-strip-types tests/host.test.ts",
+    "preview": "vite preview --host 0.0.0.0",
+    "test:browser": "playwright test",
+    "test:desktop": "node tests/desktop-smoke.mjs",
+    "format": "prettier --write src desktop tests *.ts *.json *.html docs/*.md README.md",
+    "predev": "node scripts/pdf-assets.mjs",
+    "prebuild": "node scripts/pdf-assets.mjs",
+    "benchmark:live": "node scripts/benchmark-live.mjs",
+    "test:live": "node --experimental-strip-types tests/live.test.ts",
+    "test:live:desktop": "node tests/live-desktop.mjs",
+    "test:practice": "node --experimental-strip-types tests/practice.test.ts",
+    "test:practice:desktop": "node tests/practice-desktop.mjs",
+    "test:clipboard:desktop": "node tests/clipboard-desktop.mjs",
+    "test:spelling": "node --experimental-strip-types tests/spelling.test.ts",
+    "test:spelling:desktop": "node tests/spelling-desktop.mjs",
+    "test:synctex": "node --experimental-strip-types tests/synctex.test.ts",
+    "test:synctex:desktop": "node tests/synctex-desktop.mjs",
+    "test:highlighting": "node --experimental-strip-types tests/delimiter-highlighting.test.ts"
+  },
+  "dependencies": {
+    "@codemirror/autocomplete": "^6.18.0",
+    "@codemirror/commands": "^6.10.0",
+    "@codemirror/language": "^6.12.0",
+    "@codemirror/legacy-modes": "^6.5.0",
+    "@codemirror/search": "^6.7.0",
+    "@codemirror/state": "^6.5.0",
+    "@codemirror/view": "^6.38.0",
+    "@lezer/highlight": "^1.2.0",
+    "@mathjax/mathjax-newcm-font": "^4.1.3",
+    "@mathjax/src": "^4.1.3",
+    "dictionary-en": "^4.0.0",
+    "nspell": "^2.1.5",
+    "pdfjs-dist": "^6.3.289"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "electron": "^44.3.0",
+    "prettier": "^3.9.6",
+    "typescript": "^5.9.0",
+    "vite": "^7.3.0"
+  },
+  "engines": {
+    "node": ">=22.18.0"
+  }
+}

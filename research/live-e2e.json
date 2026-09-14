@@ -1,0 +1,255 @@
+{
+  "date": "2026-09-10T22:49:15.410Z",
+  "viewport": {
+    "width": 1440,
+    "height": 950
+  },
+  "debounceMs": [
+    350,
+    100
+  ],
+  "fixture": "Sample notes plus two added pages; generated edits replace one used macro value; 7 warm edits per mode/debounce combination; fast tests reuse accurate bibliography caches",
+  "results": [
+    {
+      "kind": "cold-enable",
+      "mode": "accurate",
+      "syncMs": 2,
+      "compileMs": 1246,
+      "totalMs": 1249,
+      "previewMs": 153,
+      "pipelineMs": 1404,
+      "editToPreviewMs": 1754
+    },
+    {
+      "kind": "warm-edit",
+      "debounceMs": 350,
+      "mode": "accurate",
+      "syncMs": 2,
+      "compileMs": 428,
+      "totalMs": 431,
+      "previewMs": 129,
+      "pipelineMs": 561,
+      "editToPreviewMs": 912
+    },
+    {
+      "kind": "warm-edit",
+      "debounceMs": 350,
+      "mode": "accurate",
+      "syncMs": 1,
+      "compileMs": 433,
+      "totalMs": 435,
+      "previewMs": 133,
+      "pipelineMs": 570,
+      "editToPreviewMs": 920
+    },
+    {
+      "kind": "warm-edit",
+      "debounceMs": 350,
+      "mode": "accurate",
+      "syncMs": 1,
+      "compileMs": 429,
+      "totalMs": 431,
+      "previewMs": 136,
+      "pipelineMs": 568,
+      "editToPreviewMs": 918
+    },
+    {
+      "kind": "warm-edit",
+      "debounceMs": 350,
+      "mode": "accurate",
+      "syncMs": 1,
+      "compileMs": 430,
+      "totalMs": 432,
+      "previewMs": 139,
+      "pipelineMs": 573,
+      "editToPreviewMs": 924
+    },
+    {
+      "kind": "warm-edit",
+      "debounceMs": 350,
+      "mode": "accurate",
+      "syncMs": 1,
+      "compileMs": 429,
+      "totalMs": 431,
+      "previewMs": 127,
+      "pipelineMs": 560,
+      "editToPreviewMs": 910
+    },
+    {
+      "kind": "warm-edit",
+      "debounceMs": 350,
+      "mode": "accurate",
+      "syncMs": 1,
+      "compileMs": 431,
+      "totalMs": 433,
+      "previewMs": 129,
+      "pipelineMs": 564,
+      "editToPreviewMs": 914
+    },
+    {
+      "kind": "warm-edit",
+      "debounceMs": 350,
+      "mode": "accurate",
+      "syncMs": 2,
+      "compileMs": 427,
+      "totalMs": 429,
+      "previewMs": 128,
+      "pipelineMs": 559,
+      "editToPreviewMs": 909
+    },
+    {
+      "kind": "warm-edit",
+      "debounceMs": 350,
+      "mode": "fast",
+      "syncMs": 1,
+      "compileMs": 255,
+      "totalMs": 257,
+      "previewMs": 133,
+      "pipelineMs": 392,
+      "editToPreviewMs": 742
+    },
+    {
+      "kind": "warm-edit",
+      "debounceMs": 350,
+      "mode": "fast",
+      "syncMs": 2,
+      "compileMs": 252,
+      "totalMs": 254,
+      "previewMs": 141,
+      "pipelineMs": 397,
+      "editToPreviewMs": 747
+    },
+    {
+      "kind": "warm-edit",
+      "debounceMs": 350,
+      "mode": "fast",
+      "syncMs": 2,
+      "compileMs": 255,
+      "totalMs": 257,
+      "previewMs": 122,
+      "pipelineMs": 381,
+      "editToPreviewMs": 731
+    },
+    {
+      "kind": "warm-edit",
+      "debounceMs": 350,
+      "mode": "fast",
+      "syncMs": 1,
+      "compileMs": 252,
+      "totalMs": 253,
+      "previewMs": 129,
+      "pipelineMs": 384,
+      "editToPreviewMs": 734
+    },
+    {
+      "kind": "warm-edit",
+      "debounceMs": 350,
+      "mode": "fast",
+      "syncMs": 1,
+      "compileMs": 255,
+      "totalMs": 257,
+      "previewMs": 138,
+      "pipelineMs": 398,
+      "editToPreviewMs": 748
+    },
+    {
+      "kind": "warm-edit",
+      "debounceMs": 350,
+      "mode": "fast",
+      "syncMs": 1,
+      "compileMs": 252,
+      "totalMs": 254,
+      "previewMs": 141,
+      "pipelineMs": 397,
+      "editToPreviewMs": 748
+    },
+    {
+      "kind": "warm-edit",
+      "debounceMs": 350,
+      "mode": "fast",
+      "syncMs": 1,
+      "compileMs": 256,
+      "totalMs": 258,
+      "previewMs": 137,
+      "pipelineMs": 397,
+      "editToPreviewMs": 747
+    },
+    {
+      "kind": "warm-edit",
+      "debounceMs": 100,
+      "mode": "fast",
+      "syncMs": 2,
+      "compileMs": 251,
+      "totalMs": 254,
+      "previewMs": 138,
+      "pipelineMs": 393,
+      "editToPreviewMs": 493
+    },
+    {
+      "kind": "warm-edit",
+      "debounceMs": 100,
+      "mode": "fast",
+      "syncMs": 1,
+      "compileMs": 256,
+      "totalMs": 259,
+      "previewMs": 122,
+      "pipelineMs": 382,
+      "editToPreviewMs": 483
+    },
+    {
+      "kind": "warm-edit",
+      "debounceMs": 100,
+      "mode": "fast",
+      "syncMs": 2,
+      "compileMs": 263,
+      "totalMs": 265,
+      "previewMs": 135,
+      "pipelineMs": 401,
+      "editToPreviewMs": 501
+    },
+    {
+      "kind": "warm-edit",
+      "debounceMs": 100,
+      "mode": "fast",
+      "syncMs": 1,
+      "compileMs": 255,
+      "totalMs": 257,
+      "previewMs": 133,
+      "pipelineMs": 392,
+      "editToPreviewMs": 492
+    },
+    {
+      "kind": "warm-edit",
+      "debounceMs": 100,
+      "mode": "fast",
+      "syncMs": 2,
+      "compileMs": 260,
+      "totalMs": 263,
+      "previewMs": 134,
+      "pipelineMs": 399,
+      "editToPreviewMs": 499
+    },
+    {
+      "kind": "warm-edit",
+      "debounceMs": 100,
+      "mode": "fast",
+      "syncMs": 1,
+      "compileMs": 281,
+      "totalMs": 283,
+      "previewMs": 130,
+      "pipelineMs": 414,
+      "editToPreviewMs": 514
+    },
+    {
+      "kind": "warm-edit",
+      "debounceMs": 100,
+      "mode": "fast",
+      "syncMs": 2,
+      "compileMs": 273,
+      "totalMs": 276,
+      "previewMs": 136,
+      "pipelineMs": 413,
+      "editToPreviewMs": 513
+    }
+  ]
+}

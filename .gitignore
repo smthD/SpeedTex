@@ -1,0 +1,13 @@
+node_modules/
+dist/
+*.log
+*.aux
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+test-results/
+playwright-report/
+public/pdfjs/
+
+snapshots/
+experiments/

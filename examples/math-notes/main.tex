@@ -1,0 +1,51 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+
+\newcommand{\R}{\mathbb{R}}
+\newtheorem{theorem}{Theorem}
+
+\title{Notes on mathematical analysis}
+\author{A working notebook}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+These notes explore the connections between continuity,
+differentiation, and integration. We begin with a familiar
+idea: understanding a function through its local behavior.
+
+\section{Limits and continuity}
+\label{sec:limits}
+Let $f : \R \to \R$. We say that $f$ is continuous at $a$
+if, for every $\varepsilon > 0$, there exists $\delta > 0$ such that
+\begin{equation}
+  |x-a| < \delta \implies |f(x)-f(a)| < \varepsilon.
+  \label{eq:continuity}
+\end{equation}
+
+\subsection{A useful example}
+Consider the following expression:
+\[
+  f(x) = \frac{\sin^2(\alpha)}{\sqrt{x^2+1}}
+\]
+% Try typing fr/ or sq/ inside the math expression below.
+\[
+  x = 0
+\]
+
+\section{The fundamental theorem}
+\begin{theorem}
+If $f$ is continuous on $[a,b]$, then
+\[
+  \frac{d}{dx}\int_a^x f(t)\,dt = f(x).
+\]
+\end{theorem}
+
+\input{sections/remarks}
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}

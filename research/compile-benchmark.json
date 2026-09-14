@@ -1,0 +1,109 @@
+{
+  "date": "2026-09-10T22:41:58.864Z",
+  "machine": {
+    "cpu": "AMD Ryzen 7 PRO 6850H with Radeon Graphics",
+    "cores": 16,
+    "platform": "linux",
+    "arch": "x64"
+  },
+  "samplesPerWarmCase": 7,
+  "notes": "Wall time of compiler subprocess only. Warm filesystem/TeX caches; excludes debounce, snapshot synchronization, IPC and PDF.js painting. Cold means first build in clean directory, not cold OS caches. Generated projects, not a user thesis.",
+  "results": [
+    {
+      "case": "sample-notes",
+      "engine": "latexmk",
+      "coldMs": 1368,
+      "warmMs": [
+        428,
+        417,
+        418,
+        427,
+        414,
+        422,
+        420
+      ],
+      "medianMs": 420,
+      "maxMs": 428
+    },
+    {
+      "case": "sample-notes",
+      "engine": "pdflatex",
+      "coldMs": 243,
+      "warmMs": [
+        249,
+        243,
+        247,
+        243,
+        244,
+        251,
+        246
+      ],
+      "medianMs": 246,
+      "maxMs": 251
+    },
+    {
+      "case": "math-30-pages",
+      "engine": "latexmk",
+      "coldMs": 485,
+      "warmMs": [
+        270,
+        272,
+        268,
+        276,
+        271,
+        274,
+        272
+      ],
+      "medianMs": 272,
+      "maxMs": 276
+    },
+    {
+      "case": "math-30-pages",
+      "engine": "pdflatex",
+      "coldMs": 187,
+      "warmMs": [
+        188,
+        193,
+        186,
+        187,
+        192,
+        192,
+        189
+      ],
+      "medianMs": 189,
+      "maxMs": 193
+    },
+    {
+      "case": "tikz-5-pages",
+      "engine": "latexmk",
+      "coldMs": 4552,
+      "warmMs": [
+        2323,
+        2326,
+        2356,
+        2347,
+        2360,
+        2359,
+        2355
+      ],
+      "medianMs": 2355,
+      "maxMs": 2360
+    },
+    {
+      "case": "tikz-5-pages",
+      "engine": "pdflatex",
+      "coldMs": 2262,
+      "warmMs": [
+        2236,
+        2262,
+        2235,
+        2241,
+        2256,
+        2279,
+        2228
+      ],
+      "medianMs": 2241,
+      "maxMs": 2279
+    }
+  ]
+}
